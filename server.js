@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const HTTP_PORT = process.env.PORT || 3000
+const HTTP_PORT = process.env.PORT || 8080
 
 app.get('/', (req, res) => {
     res.send('<h3>Nghi Phuong Huynh Pham - 101412203</h3>')
